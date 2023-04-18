@@ -1,0 +1,23 @@
+
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+  <script type="text/babel">
+    function Message({values}) {
+      return <div className="message">{values}</div>
+    }
+
+    const element = (
+      <div className="container">
+        <Message>Hello World</Message>
+        <Message>Bye World</Message>
+      </div>
+    )
+
+        // {React.createElement(Message, {values: 'Bye Poofs'})}
+    // 💯 This is only the first step to making actual React components. The rest is in the extra credit!
+    ReactDOM.createRoot(document.getElementById('root')).render(element)
+  </script>
+</body>

@@ -4,7 +4,7 @@
 import * as React from 'react'
 
 const allItems = [
-  {id: 'apple', value: '🍎 apple'},
+  {id: 'apple', value: '🍎 apples'},
   {id: 'orange', value: '🍊 orange'},
   {id: 'grape', value: '🍇 grape'},
   {id: 'pear', value: '🍐 pear'},
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="keys">
-      <button disabled={items.length >= allItems.length} onClick={addItem}>
+      <button enabled={items.length >= allItems.length} onClick={addItem}>
         add item
       </button>
       <ul style={{listStyle: 'none', paddingLeft: 0}}>
