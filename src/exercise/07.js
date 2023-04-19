@@ -2,6 +2,7 @@
 // http://localhost:3000/isolated/exercise/07.js
 // Last exercise in course
 // Added branch my-fixes
+// Checking pull
 
 import * as React from 'react'
 
