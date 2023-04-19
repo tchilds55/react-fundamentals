@@ -1,5 +1,6 @@
 // Rendering Lists
 // http://localhost:3000/isolated/exercise/07.js
+// Last exercise in course
 
 import * as React from 'react'
 
