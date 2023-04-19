@@ -3,6 +3,8 @@
 // Last exercise in course
 // Added branch my-fixes
 // Checking pull
+// Fix on server5
+// Fetch & Merge from VSCode
 
 import * as React from 'react'
 
