@@ -1,6 +1,7 @@
 // Rendering Lists
 // http://localhost:3000/isolated/exercise/07.js
 // Last exercise in course
+// Added branch my-fixes
 
 import * as React from 'react'
 
